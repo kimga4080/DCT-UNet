@@ -6,7 +6,7 @@ In order to train the DCT-UNet on your dataset, you will have to generate folder
 
 
 ## Data Split and Load
-'data_spliter.py': This file splits original dataset into train, validation, and test dataset. It expects datasets in a specific structured format as follow:
+`data_spliter.py`: This file splits original dataset into train, validation, and test dataset. It expects datasets in a specific structured format as follow:
 
     DCTUNet/Dataset/
     ├── 001
