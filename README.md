@@ -6,7 +6,8 @@ The DCT-UNet was developed and tested in a virtual environment using Anaconda. T
 
 ## Data Split and Load
 `data_spliter.py` splits original dataset into train, validation, and test dataset. It expects datasets in a specific structured format. The example of format is shown as follow:
-    DCTUNet/Dataset/
+```
+    ./DCTUNet/Dataset/
     ├── 001
     │   ├── image.nii
     │   └── label.nii
@@ -22,7 +23,7 @@ The DCT-UNet was developed and tested in a virtual environment using Anaconda. T
     └── 005
         ├── image.nii
         └── label.nii
-
+```
 `data_loader.py` load the train, calidation, and test dataset. It includes pre-processing of image such as resampling, intensity scaling, and randomly cropping. Croppoing is performed for train and validation dataset.
 
 ## Model Training and Inference
