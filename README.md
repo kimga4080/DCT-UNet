@@ -36,6 +36,7 @@ The DCT-UNet was developed and tested in a virtual environment using Anaconda. T
 ## References
 If you use the DCT-UNet model or find this repository helpful in your research, Please cite the following papers.
 > Kim, G., Viswanathan, A.N., Bhatia, R., Landman, Y., Roumeliotis, M., Erickson, B., Schmidt, E.J. and Lee, J., 2024. Dual convolution-transformer UNet (DCT-UNet) for organs at risk and clinical target volume segmentation in MRI for cervical cancer brachytherapy. Physics in Medicine and Biology.
+
 > Kim, G., Antaki, M., Schmidt, E.J., Roumeliotis, M., Viswanathan, A.N. and Lee, J., 2024, March. Intraoperative MRI-guided cervical cancer brachytherapy with automatic tissue segmentation using dual convolution-transformer network and real-time needle tracking. In Medical Imaging 2024: Image-Guided Procedures, Robotic Interventions, and Modeling (Vol. 12928, pp. 263-270). SPIE.
 
 
