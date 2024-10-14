@@ -27,7 +27,7 @@ The DCT-UNet was developed and tested in a virtual environment using Anaconda. T
 `data_loader.py` load the train, calidation, and test dataset. It includes pre-processing of image such as resampling, intensity scaling, and randomly cropping. Croppoing is performed for train and validation dataset.
 
 ## Model Training and Inference
-`model.py`, 'block_covolution.py`, `block_transformer.py` contains functions to create the DCT-UNet.
+`model.py` , 'block_covolution.py` , `block_transformer.py` contains functions to create the DCT-UNet.
 `train.py` is used to train the DCT-UNet. It saves the model when its performance on the validation dataset surpasses the previously saved model (or defined best metric). You can configure the save path and model name as needed. Additionally, the model parameters can be adjusted within the train_model function.
 `test.py`  is used to test the saved DCT-UNet. You can configure the saved model path as needed.
 
