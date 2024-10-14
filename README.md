@@ -5,24 +5,24 @@ Dual Convolution-Transformer UNet
 The DCT-UNet was developed and tested in a virtual environment using Anaconda. The `requirements.txt` contains the instailled package lists and their respective versions within the conda enviroment.
 
 ## Data Split and Load
-`data_spliter.py` splits original dataset into train, validation, and test dataset. It expects datasets in a specific structured format. The example of format is shown as follow:
+`data_spliter.py` splits original dataset into train, validation, and test dataset. To use this script, your dataset folder should be organized as follows:
 ```
-    ./DCTUNet/Dataset/
-    ├── 001
-    │   ├── image.nii
-    │   └── label.nii
-    ├── 002
-    │   ├── image.nii
-    │   └── label.nii
-    ├── 003
-    │   ├── image.nii
-    │   └── label.nii
-    ├── 004
-    │   ├── image.nii
-    │   └── label.nii
-    └── 005
-        ├── image.nii
-        └── label.nii
+./DCTUNet/Dataset/
+├── 001
+│   ├── image.nii
+│   └── label.nii
+├── 002
+│   ├── image.nii
+│   └── label.nii
+├── 003
+│   ├── image.nii
+│   └── label.nii
+├── 004
+│   ├── image.nii
+│   └── label.nii
+└── 005
+    ├── image.nii
+    └── label.nii
 ```
 `data_loader.py` load the train, calidation, and test dataset. It includes pre-processing of image such as resampling, intensity scaling, and randomly cropping. Croppoing is performed for train and validation dataset.
 
