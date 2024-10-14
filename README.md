@@ -28,7 +28,9 @@ The DCT-UNet was developed and tested in a virtual environment using Anaconda. T
 
 ## Model Training and Inference
 `model.py` , 'block_covolution.py` , `block_transformer.py` contains functions to create the DCT-UNet.
+
 `train.py` is used to train the DCT-UNet. It saves the model when its performance on the validation dataset surpasses the previously saved model (or defined best metric). You can configure the save path and model name as needed. Additionally, the model parameters can be adjusted within the train_model function.
+
 `test.py`  is used to test the saved DCT-UNet. You can configure the saved model path as needed.
 
 ## References
